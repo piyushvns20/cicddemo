@@ -19,6 +19,10 @@
     "start": "cds-serve"
   },
   "cds": {
+    "requires": {
+      "db":"hana",
+      "auth":"mocked"
+    },
     "sql": {
       "native_hana_associations": false
     }
